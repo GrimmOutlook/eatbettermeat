@@ -3,12 +3,24 @@ html, body {
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
 
 
+/*.header {
+  background-color: #;
+}
+*/
 
+.logo {
+  position: relative;
+  /*-webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);*/
+}
 
 .footer {
-  background-color: #333;
+  background-color: #003e21;
   color: #fff;
   padding: 30px 0;
 }
@@ -25,3 +37,12 @@ html, body {
   height: 50px;
   margin: 0 5px;
 }
+
+
+
+ /*---------------------------- Media Queries -------------------------------------*/
+
+
+
+
+
