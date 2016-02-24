@@ -13,6 +13,11 @@ html, body {
 }
 */
 
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 .logo {
   position: relative;
   /*-webkit-transform: rotate(-15deg);
@@ -42,7 +47,13 @@ html, body {
 
  /*---------------------------- Media Queries -------------------------------------*/
 
-
+@media(min-width: 769){
+  .container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+}
 
 
 
