@@ -18,6 +18,10 @@ html, body {
   padding-right: 1em;
 }
 
+.cut {
+  color: #003e21;
+}
+
 .logo {
   position: relative;
   /*-webkit-transform: rotate(-15deg);
@@ -41,6 +45,14 @@ html, body {
   width: 50px;
   height: 50px;
   margin: 0 5px;
+}
+
+
+/*--------------------------------- About -----------------------------------------*/
+
+.about {
+  height: 500px;
+  background: #fff;
 }
 
 
