@@ -22,6 +22,10 @@ html, body {
   color: #003e21;
 }
 
+.description {
+  color: #003e21;
+}
+
 .logo {
   position: relative;
   /*-webkit-transform: rotate(-15deg);
