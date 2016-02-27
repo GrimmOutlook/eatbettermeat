@@ -16,8 +16,8 @@ html, body {
 .container {
   padding-left: 1em;
   padding-right: 1em;
-  width: 85%;
-  margin: 0 auto;
+  /*width: 100%;
+  margin: 0 auto;*/
 }
 
 .cut {
@@ -57,7 +57,7 @@ html, body {
 /*--------------------------------- About -----------------------------------------*/
 
 .about {
-  height: 500px;
+  height: 450px;
   background: #fff;
 }
 
@@ -65,11 +65,12 @@ html, body {
 
  /*---------------------------- Media Queries -------------------------------------*/
 
-@media(min-width: 769){
+@media (min-width: 769px){
   .container {
-    width: 100%;
+    width: 70%;
     max-width: 1250px;
     margin: 0 auto;
+    height: 300px;
   }
 }
 

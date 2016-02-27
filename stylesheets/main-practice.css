@@ -1,0 +1,22 @@
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+  /*width: 100%;
+  margin: 0 auto;*/
+}
+
+
+
+
+
+
+
+/*---------------------------- Media Queries -------------------------------------*/
+
+@media screen and (min-width: 169px){
+  .container {
+    width: 12%;
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+}
