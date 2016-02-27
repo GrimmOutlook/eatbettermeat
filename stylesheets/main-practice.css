@@ -6,16 +6,23 @@
 }
 
 
-
+.products li {
+  display: inline-block;
+  margin: 10px 15px 10px;
+  width: 125px;
+  background-color: antiquewhite;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 
 
 
 /*---------------------------- Media Queries -------------------------------------*/
 
-@media screen and (min-width: 169px){
+@media screen and (min-width: 769px){
   .container {
-    width: 12%;
+    width: 100%;
     max-width: 1250px;
     margin: 0 auto;
   }

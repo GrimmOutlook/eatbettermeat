@@ -7,11 +7,25 @@ html, body {
   box-sizing: border-box;
 }
 
+li a {
+  text-decoration: none;
+
+}
+
+li {
+  list-style-type: none;
+}
 
 /*.header {
   background-color: #;
 }
 */
+
+/*.logo {
+  display: inline-block;
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}*/
 
 .container {
   padding-left: 1em;
@@ -26,12 +40,6 @@ html, body {
 
 .description {
   color: #003e21;
-}
-
-.logo {
-  position: relative;
-  /*-webkit-transform: rotate(-15deg);
-  transform: rotate(-15deg);*/
 }
 
 .main-footer {
@@ -70,8 +78,28 @@ html, body {
     width: 70%;
     max-width: 1250px;
     margin: 0 auto;
-    height: 300px;
   }
+
+  .about {
+    height: 300px;
+    }
+
+  .top-wrap {
+    min-height: calc(100vh-50px);
+  }
+
+  .nav li, .tagline li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .logo, .nav {
+  display: inline;
+  margin: 10px;
+  background-color: antiquewhite;
+}
+
 }
 
 
