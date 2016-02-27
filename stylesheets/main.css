@@ -16,6 +16,8 @@ html, body {
 .container {
   padding-left: 1em;
   padding-right: 1em;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .cut {
@@ -32,13 +34,13 @@ html, body {
   transform: rotate(-15deg);*/
 }
 
-.footer {
+.main-footer {
   background-color: #003e21;
   color: #fff;
   padding: 30px 0;
 }
 
-.footer p {
+.main-footer p {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 12px;
